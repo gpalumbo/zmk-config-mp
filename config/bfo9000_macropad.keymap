@@ -21,7 +21,7 @@
         default_layer {
             // BFO-9000 Right Half as Macro Pad (9 columns x 6 rows = 54 keys)
             bindings = <
-                &kp ESC   &kp GRAVE &kp SLASH &kp PRSCN &kp SLCK  &kp PAUSE_BREAK &kp C &kp V &kp KP_NLCK  
+                &kp ESC   &kp GRAVE &kp SLASH &kp PRSCN &kp SLCK  &kp PAUSE_BREAK &kp LC(C) &kp LC(V) &kp KP_NUM
                 &kp F1    &kp F2    &kp F3    &kp INS   &kp HOME  &kp PG_UP &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_SUBTRACT
                 &kp F4    &kp F5    &kp F6    &kp DEL   &kp END   &kp PG_DN &kp KP_N7 &kp KP_N8 &kp KP_N9
                 &kp F7    &kp F8    &kp F9    &kp C_VOL_UP &kp C_MUTE &kp C_VOL_DN  &kp KP_N4 &kp KP_N5 &mo KP_N6
