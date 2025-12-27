@@ -1,0 +1,12 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_BFO9000_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "BFO-9000 Macropad"
+
+# This is a standalone keyboard, NOT a split
+# Do not enable CONFIG_ZMK_SPLIT
+
+endif
